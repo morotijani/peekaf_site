@@ -4,7 +4,7 @@
 
      <!-- Wrapper-->
     <div class="wrapper">
-        <section class="module-cover parallax text-center" data-background="assets/media/bg-8.jpg" data-jarallax-video="https://www.youtube.com/watch?v=ARvle-Ei6Sw" data-overlay="0.85" data-gradient="1">
+        <section class="module-cover parallax text-center" data-background="assets/media/bg-8.jpg" data-jarallax-video="https://www.youtube.com/watch?v=ARvle-Ei6Sw" data-overlay="0.85" data-gradient="0">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
