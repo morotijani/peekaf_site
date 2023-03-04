@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>PeeKaf</title>
+        <title>Pee Kaf</title>
 
-        <link rel="shortcut icon" href="assets/images/favicon.png">
-        <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+        <link rel="shortcut icon" href="assets/media/logo-1.png">
+        <link rel="apple-touch-icon" href="assets/media/logo-1.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/logo-1.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/logo-1.png">
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7cPlayfair+Display:400i" rel="stylesheet">
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -34,7 +34,9 @@
         <!-- Header-->
         <header class="header header-transparent">
             <div class="container-fluid">
-                <div class="inner-header"><a class="inner-brand" href="index.html">PeeKaf</a></div>
+                <div class="inner-header">
+                    <a class="inner-brand" href="index.html"><img src="assets/media/logo-1.png" width="70" height="70" alt="">Pee Kaf</a>
+                </div>
                 <div class="inner-navigation collapse">
                     <div class="inner-nav">
                         <ul>
@@ -52,9 +54,6 @@
                             </li>
                             <li>
                                 <a href="contact"><span class="menu-item-span">Contact</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="menu-item-span">Shop</span></a>
                             </li>
                         </ul>
                     </div>
@@ -79,8 +78,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h1 class="m-b-20"><strong>Gear up to land <br> somewhere new.</strong></h1>
-                                    <p class="m-b-40">For your authentic Vietnam Rice look no further than PEE KAF premium jasmine rice.</p>
+                                    <h1 class="m-b-20"><strong>What everyone <br> LOVES.</strong></h1>
+                                    <p class="m-b-40">We pride ourselves on providing top-notch service to our clients.</p>
                                     <p><a class="btn btn-lg btn-circle btn-success" href="products">Check Product Out</a><a class="btn btn-lg btn-circle btn-outline-new-white" href="about">Learn More</a></p>
                                 </div>
                             </div>
@@ -90,8 +89,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h1 class="m-b-20"><strong>Yes, We Can Build That</strong></h1>
-                                    <p class="m-b-40">See how your users experience your website in realtime or view  <br> trends to see any changes in performance over time.</p>
+                                    <h1 class="m-b-20"><strong>Feel the quality taste.</strong></h1>
+                                    <p class="m-b-40">We are thrilled to be able to offer a wide range of products and <br>services that will help satisfy our customers and consumers needs.</p>
                                     <p><a class="btn btn-lg btn-circle btn-success" href="products">Check Product Out</a><a class="btn btn-lg btn-circle btn-outline-new-white" href="about">Learn More</a></p>
                                 </div>
                             </div>
@@ -101,8 +100,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h1 class="m-b-20"><strong>Your customers will love you <br> one minute from now.</strong></h1>
-                                    <p class="m-b-40">See how your users experience your website in realtime or view  <br> trends to see any changes in performance over time.</p>
+                                    <h1 class="m-b-20"><strong>Whatever <br> you need.</strong></h1>
+                                    <p class="m-b-40">We specialize in importing rice and edible oil products from SouthEast Asia, where the fertile soil <br> and favorable climate allow for some of the best crops in the world to be grown.</p>
                                     <p><a class="btn btn-lg btn-circle btn-new-white" href="products">Products</a><a class="btn btn-lg btn-circle btn-outline-new-white" href="about">Learn More</a></p>
                                 </div>
                             </div>
@@ -125,8 +124,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 m-auto text-center">
-                            <h1>Your Site, Your Way.</h1>
-                            <p class="lead">See how your users experience your website in realtime or view trends to see any changes in performance over time.</p>
+                            <h1>A taste, You cannot Resist.</h1>
+                            <p class="lead">Our team of experts is well-versed in the intricacies of international trade.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -135,8 +134,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
-                            <p><img src="assets/media/bg-4.jpg" alt=""></p>
+                        <div class="col-md-12 text-center">
+                            <p><img src="assets/media/logo-1.png" alt=""></p>
                         </div>
                     </div>
                     <div class="row">
@@ -149,34 +148,34 @@
                             <div class="icon-box text-center">
                                 <div class="icon-box-icon"><span class="ti-layout text-success"></span></div>
                                 <div class="icon-box-title">
-                                    <h6>Visual Composer</h6>
+                                    <h6>Quality Products</h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+                                    <p>Our team of experts is well-versed in the intricacies of international trade, and we can help you find the products you need...</p>
                                 </div>
                                 <div class="icon-box-link"><a href="service">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="icon-box text-center">
-                                <div class="icon-box-icon"><span class="ti-cup text-success"></span></div>
+                                <div class="icon-box-icon"><span class="ti-world text-success"></span></div>
                                 <div class="icon-box-title">
-                                    <h6>Revolution Slider</h6>
+                                    <h6>Trade Anywhere</h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+                                    <p>We understand that many people want to take advantage of the amazing products available from South East Asia, but...</p>
                                 </div>
                                 <div class="icon-box-link"><a href="service">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="icon-box text-center">
-                                <div class="icon-box-icon"><span class="ti-harddrives text-success"></span></div>
+                                <div class="icon-box-icon"><span class="ti-user text-success"></span></div>
                                 <div class="icon-box-title">
-                                    <h6>User Experience</h6>
+                                    <h6>Communication</h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+                                    <p>We emphasize effective communication as the key in understanding customers needs as well as the challenges they...</p>
                                 </div>
                                 <div class="icon-box-link"><a href="service">Read more</a></div>
                             </div>
@@ -185,10 +184,10 @@
                             <div class="icon-box text-center">
                                 <div class="icon-box-icon"><span class="ti-desktop text-success"></span></div>
                                 <div class="icon-box-title">
-                                    <h6>Fully Responsive</h6>
+                                    <h6>Talk to Us</h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam lorem ipsum amet.</p>
+                                    <p>Contact us today to learn more about our products and services, and let us help...</p>
                                 </div>
                                 <div class="icon-box-link"><a href="service">Read more</a></div>
                             </div>
@@ -202,38 +201,12 @@
             <section class="module bg-gray">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6"><img src="assets/media/bg-2.jpg" alt=""></div>
+                        <div class="col-lg-6"><img src="assets/media/products/product-4.png" alt=""></div>
                         <div class="col-lg-5 offset-lg-1">
-                            <h2>Flexible & Lightweight.</h2>
-                            <p class="lead">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                            <h2>Pee Kaf Oil.</h2>
+                            <p class="lead">Our edible oil products are also top of the line, and we carry a variety of brands that are well-known for their quality and taste. Whether you're looking for vegetable oil, Sunflower oil, Canola Oil,  or any other type of edible oil, we have you covered..</p>
                             <div class="space" data-MY="50px"></div>
-                            <div class="icon-box icon-box-left">
-                                <div class="icon-box-icon"><span class="ti-layout"></span></div>
-                                <div class="icon-box-title">
-                                    <h6>Visual Composer</h6>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
-                                </div>
-                            </div>
-                            <div class="icon-box icon-box-left">
-                                <div class="icon-box-icon"><span class="ti-cup"></span></div>
-                                <div class="icon-box-title">
-                                    <h6>Revolution Slider</h6>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
-                                </div>
-                            </div>
-                            <div class="icon-box icon-box-left">
-                                <div class="icon-box-icon"><span class="ti-harddrives"></span></div>
-                                <div class="icon-box-title">
-                                    <h6>User Experience</h6>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
-                                </div>
-                            </div>
+                            <a href="products">Find out more</a>
                         </div>
                     </div>
                 </div>
@@ -245,45 +218,19 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-5 offset-lg-1">
-                            <h2>Flexible & Lightweight.</h2>
-                            <p class="lead">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
+                            <h2>Pee Kaf Rice.</h2>
+                            <p class="lead">Our rice is of the highest quality and is sourced from reputable farms that have a long-standing reputation for producing excellent rice.</p>
                             <div class="space" data-MY="50px"></div>
-                            <div class="icon-box icon-box-left">
-                                <div class="icon-box-icon"><span class="ti-layout"></span></div>
-                                <div class="icon-box-title">
-                                    <h6>Visual Composer</h6>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
-                                </div>
-                            </div>
-                            <div class="icon-box icon-box-left">
-                                <div class="icon-box-icon"><span class="ti-cup"></span></div>
-                                <div class="icon-box-title">
-                                    <h6>Revolution Slider</h6>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
-                                </div>
-                            </div>
-                            <div class="icon-box icon-box-left">
-                                <div class="icon-box-icon"><span class="ti-harddrives"></span></div>
-                                <div class="icon-box-title">
-                                    <h6>User Experience</h6>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover.</p>
-                                </div>
-                            </div>
+                            <a href="products">Find out more</a>
                         </div>
-                        <div class="col-lg-6"><img src="assets/media/bg-5.jpg" alt=""></div>
+                        <div class="col-lg-6"><img src="assets/media/products/product-1.png" alt=""></div>
                     </div>
                 </div>
             </section>
             <!-- Alt Services end-->
 
             <!-- Testimonials-->
-            <section class="module parallax" data-background="assets/images/module-12.jpg" data-overlay="0.5">
+            <section class="module parallax" data-background="assets/media/bg-6.png" data-overlay="0.5">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -294,32 +241,32 @@
                         <div class="col-md-12">
                             <div class="review-slides owl-carousel">
                                 <div class="review">
-                                    <div class="review-icons"><img src="assets/images/avatar/1.jpg" alt="">
+                                    <div class="review-icons"><img src="assets/media/aka.jpeg" alt="">
                                     </div>
                                     <div class="review-content">
                                         <blockquote>
-                                            <p>I don't work from drawings. I don't make sketches and drawings <br/> and color sketches into a final painting.</p>
-                                            <footer class="blockquote-footer">Albert Einstein</footer>
+                                            <p>Pee Kaf Basmati rice is a very delicious rice, quality rice with no starch. <br/> Good for Kids, Mothers, Fathers , everyone.</p>
+                                            <footer class="blockquote-footer">Akabenezer</footer>
                                         </blockquote>
                                     </div>
                                 </div>
                                 <div class="review">
-                                    <div class="review-icons"><img src="assets/images/avatar/1.jpg" alt="">
+                                    <div class="review-icons"><img src="assets/media/ama.jpg" alt="">
                                     </div>
                                     <div class="review-content">
                                         <blockquote>
-                                            <p>To be yourself in a world that is constantly trying to make you <br/> something else is the greatest accomplishment.</p>
-                                            <footer class="blockquote-footer">Ralph Waldo Emerson</footer>
+                                            <p>If i go to work and i get tired, talking and shouting i get sore throat. When i get home and get myself Pee Kaf Basmati rice, after eating, my sore throat just repaires and make me feel good.<br/> A very sweet rice indeed.</p>
+                                            <footer class="blockquote-footer">Ama Tundra</footer>
                                         </blockquote>
                                     </div>
                                 </div>
                                 <div class="review">
-                                    <div class="review-icons"><img src="assets/images/avatar/1.jpg" alt="">
+                                    <div class="review-icons"><img src="assets/media/kompany.jpg" alt="">
                                     </div>
                                     <div class="review-content">
                                         <blockquote>
-                                            <p>Imperfection is beauty, madness is genius and it's better to be <br/> absolutely ridiculous than absolutely boring.</p>
-                                            <footer class="blockquote-footer">Marilyn Monroe</footer>
+                                            <p> A brand new rice in the system for any kind of food you want to prepare. A very delicious rice. <br/> The best rice in the world.</p>
+                                            <footer class="blockquote-footer">Kompany</footer>
                                         </blockquote>
                                     </div>
                                 </div>
@@ -334,51 +281,6 @@
                 </div>
             </section>
             <!-- Testimonials end-->
-
-            <!-- Counters-->
-            <section class="module bg-gray p-b-0">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="counter">
-                                <div class="counter-icon"><span class="icon-energy icons"></span></div>
-                                <div class="counter-number">
-                                    <h6><strong class="counter-timer" data-from="0" data-to="1538">0</strong>+</h6>
-                                </div>
-                                <div class="counter-title">Happy Customers</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="counter">
-                                <div class="counter-icon"><span class="icon-game-controller icons"></span></div>
-                                <div class="counter-number">
-                                    <h6><strong class="counter-timer" data-from="0" data-to="2124">0</strong></h6>
-                                </div>
-                                <div class="counter-title">Countries</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="counter">
-                                <div class="counter-icon"><span class="icon-fire icons"></span></div>
-                                <div class="counter-number">
-                                    <h6><strong class="counter-timer" data-from="0" data-to="3128">0</strong></h6>
-                                </div>
-                                <div class="counter-title">Offices</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="counter">
-                                <div class="counter-icon"><span class="icon-diamond icons"></span></div>
-                                <div class="counter-number">
-                                    <h6><strong class="counter-timer" data-from="0" data-to="9534">0</strong></h6>
-                                </div>
-                                <div class="counter-title">Products</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Counters end-->
 
             <!-- Image-->
             <section class="module no-gutters p-0">
@@ -402,11 +304,11 @@
                                         <h6>About Us</h6>
                                     </div>
                                     <div class="textwidget">
-                                        <p>Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+                                        <p>PeekKaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep.</p>
                                         <p>
-                                            Location: 12 London Avenue, Suite 18<br>
-                                            E-mail: support@theme.com<br>
-                                            Phone: 8 800 123 4567<br>
+                                            Location: Kenyahse - Duase, K.N.U.S.T, Kumasi<br>
+                                            E-mail: peekafrice@gmail.com<br>
+                                            Phone: +233 2411 68078 / +971 5829 46515<br>
                                         </p>
                                         <ul class="social-icons">
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -423,10 +325,8 @@
                                         <h6>Browse</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Products.</a></li>
-                                        <li><a href="#">Serives</a></li>
-                                        <li><a href="#">Contact.</a></li>
-                                        <li><a href="#">About Us.</a></li>
+                                        <li><a href="products">Products.</a></li>
+                                        <li><a href="service">Serives.</a></li>
                                     </ul>
                                 </aside>
                             </div>
@@ -434,8 +334,12 @@
                                 <!-- Twitter widget-->
                                 <aside class="widget twitter-feed-widget">
                                     <div class="widget-title">
-                                        <h6>Twitter Feed</h6>
+                                        <h6>Discover Feed</h6>
                                     </div>
+                                    <ul>
+                                        <li><a href="contact">Contact Us.</a></li>
+                                        <li><a href="about">About Us.</a></li>
+                                    </ul>
                                     <div class="twitter-feed" data-twitter="double_theme" data-number="1"></div>
                                 </aside>
                             </div>
@@ -446,12 +350,12 @@
                                         <h6>Discover</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="#"><img src="assets/media/bg-1.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/media/bg-2.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/media/bg-3.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/media/bg-4.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/media/bg-1.jpg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/media/bg-2.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/bg-1.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/bg-2.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/bg-3.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/bg-4.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/bg-1.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/bg-2.jpg" alt=""></a></li>
                                     </ul>
                                 </aside>
                             </div>
@@ -463,7 +367,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>&copy; PeeKaf, All Rights Reserved.</p>
+                                    <p>&copy; PEE KAF, All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>
@@ -473,6 +377,7 @@
             <!-- Footer end-->
         </div>
         <!-- Wrapper end-->
+
         <!-- Off canvas-->
         <div class="off-canvas-sidebar">
             <div class="off-canvas-sidebar-wrapper">
@@ -488,15 +393,15 @@
                     <!-- Recent portfolio widget-->
                     <aside class="widget widget-recent-works">
                         <ul>
-                            <li><a href="#"><img src="assets/images/widgets/1.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/3.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/4.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/5.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/6.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/7.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/8.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/widgets/9.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/1.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/2.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/3.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/4.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/5.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/6.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/7.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/8.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/images/widgets/9.jpg" alt=""></a></li>
                         </ul>
                     </aside>
                     <!-- Social Icons-->
