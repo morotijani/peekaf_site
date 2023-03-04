@@ -43,7 +43,7 @@
                                         <h6>Discover</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="contact">Home.</a></li>
+                                        <li><a href="index">Home.</a></li>
                                         <li><a href="contact">Contact Us.</a></li>
                                         <li><a href="about">About Us.</a></li>
                                     </ul>
@@ -57,10 +57,10 @@
                                         <h6>Discover</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="javascript:;"><img src="assets/media/bg-1.jpg" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/bg-2.jpg" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/bg-3.jpg" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/bg-4.jpg" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/products/product-1.png" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/products/product-2.png" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/products/product-3.png" alt=""></a></li>
+                                        <li><a href="javascript:;"><img src="assets/media/products/product-4.png" alt=""></a></li>
                                         <li><a href="javascript:;"><img src="assets/media/bg-1.jpg" alt=""></a></li>
                                         <li><a href="javascript:;"><img src="assets/media/bg-2.jpg" alt=""></a></li>
                                     </ul>
@@ -102,15 +102,9 @@
                     <!-- Recent portfolio widget-->
                     <aside class="widget widget-recent-works">
                         <ul>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-1.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-2.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-3.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-4.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-5.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-6.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-7.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-8.jpg" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-9.jpg" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/media/products/product-2.png" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/media/products/product-3.png" alt=""></a></li>
+                            <li><a href="javascript:;"><img src="assets/media/products/product-4.png" alt=""></a></li>
                         </ul>
                     </aside>
                     <!-- Social Icons-->

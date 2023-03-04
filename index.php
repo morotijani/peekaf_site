@@ -1,5 +1,4 @@
 <?php 
-
     include ("includes/header.php");
 ?>
 
@@ -87,7 +86,7 @@
                                 <div class="icon-box-content">
                                     <p>Our team of experts is well-versed in the intricacies of international trade, and we can help you find the products you need...</p>
                                 </div>
-                                <div class="icon-box-link"><a href="service">Read more</a></div>
+                                <div class="icon-box-link"><a href="services">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -99,7 +98,7 @@
                                 <div class="icon-box-content">
                                     <p>We understand that many people want to take advantage of the amazing products available from South East Asia, but...</p>
                                 </div>
-                                <div class="icon-box-link"><a href="service">Read more</a></div>
+                                <div class="icon-box-link"><a href="services">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -111,7 +110,7 @@
                                 <div class="icon-box-content">
                                     <p>We emphasize effective communication as the key in understanding customers needs as well as the challenges they...</p>
                                 </div>
-                                <div class="icon-box-link"><a href="service">Read more</a></div>
+                                <div class="icon-box-link"><a href="services">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -123,7 +122,7 @@
                                 <div class="icon-box-content">
                                     <p>Contact us today to learn more about our products and services, and let us help...</p>
                                 </div>
-                                <div class="icon-box-link"><a href="service">Read more</a></div>
+                                <div class="icon-box-link"><a href="services">Read more</a></div>
                             </div>
                         </div>
                     </div>
