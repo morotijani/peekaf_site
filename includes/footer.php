@@ -13,7 +13,7 @@
                                         <p>PeekKaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep.</p>
                                         <p>
                                             Location: Kenyahse - Duase, K.N.U.S.T, Kumasi<br>
-                                            E-mail: peekafrice@gmail.com<br>
+                                            E-mail: info@peekaf.com<br>
                                             Phone: +233 2411 68078 / +971 5829 46515<br>
                                         </p>
                                         <ul class="social-icons">
