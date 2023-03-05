@@ -1,5 +1,6 @@
 <?php 
     include ("includes/header.php");
+    $mapkey = "AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI";
 ?>
     <!-- Wrapper-->
     <div class="wrapper">
@@ -9,7 +10,7 @@
                 loading="lazy"
                 allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI&q=Duase+Kumasi" class="map">
+                src="https://www.google.com/maps/embed/v1/place?key=<?= $mapkey; ?>&q=Duase+Kumasi" class="map">
             </iframe> 
             <!--    <div class="map" data-addresses="[48.859822, 2.352647], [44.2507913, 16.3983171]" data-info="[Lorem ipsum dolor sit amet.]" data-icon="assets/images/map-icon.png" data-zoom="15"></div> -->
         </section>
