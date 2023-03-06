@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>PEE KAF</title>
+        <title><?= $title . ' ~ '; ?>PEE KAF</title>
 
         <link rel="shortcut icon" href="assets/media/logo-1.png">
         <link rel="apple-touch-icon" href="assets/media/logo-1.png">
@@ -22,20 +22,20 @@
     <body>
 
         <!-- Preloader-->
-        <div class="page-loader">
+        <!-- <div class="page-loader">
             <div class="page-loader-inner">
                 <div class="spinner">
                     <div class="double-bounce1"></div>
                     <div class="double-bounce2"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Header-->
         <header class="header header-transparent">
             <div class="container-fluid">
                 <div class="inner-header">
-                    <a class="inner-brand" href="index.html"><img src="assets/media/logo-1.png" width="70" height="70" alt="">Pee Kaf</a>
+                    <a class="inner-brand" href="index"><img src="assets/media/logo-1.png" width="70" height="70" alt="">PEE KAF</a>
                 </div>
                 <div class="inner-navigation collapse">
                     <div class="inner-nav">

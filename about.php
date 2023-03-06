@@ -1,4 +1,5 @@
-<?php 
+<?php     
+    $title = "ABOUT US";
     include ("includes/header.php");
 ?>
 
@@ -89,7 +90,7 @@
                 <div class="row">
                     <div class="col-lg-10 col-md-9 m-auto text-center">
                         <h1>ABOUT PEE KAF.</h1>
-                        <h4>
+                        <p class="lead">
                             Pee Kaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep. We pride ourselves on providing top-notch service to our clients, and we are thrilled to be able to offer a wide range of products and services that will help satisfy our customers and consumers needs.
                             <br>
                             <br>
@@ -100,7 +101,7 @@
                             <br>
                             <br>
                             At Peekaf Company Limited, we are committed to a partnership that is devoted to our customers’ success. We explore every possibility to ensure the right solutions for your business needs, identifying new opportunities along the way. We are firmly focused on the future – your future – and how we can work hand-in-hand to achieve the best possible results.
-                        </h4>
+                        </p>
                     </div>
                 </div>
                 <div class="row">

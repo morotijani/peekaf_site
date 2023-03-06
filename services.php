@@ -1,4 +1,5 @@
 <?php 
+    $title = "SERVICE";
     include ("includes/header.php");
 ?>
 
@@ -39,8 +40,10 @@
                             <div class="space" data-mY="30px"></div>
                         </div>
                     </div>
+                    <div class="row justify-content-center">
+                    <div class="col-md-6">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 mb-5">
+                        <div class="col-12 mb-5">
                             <div class="icon-box text-center">
                                 <div class="icon-box-icon"><span class="ti-layout text-success"></span></div>
                                 <div class="icon-box-title">
@@ -51,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 mb-5">
+                        <div class="col-12 mb-5">
                             <div class="icon-box text-center">
                                 <div class="icon-box-icon"><span class="ti-world text-success"></span></div>
                                 <div class="icon-box-title">
@@ -62,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-12">
                             <div class="icon-box text-center">
                                 <div class="icon-box-icon"><span class="ti-user text-success"></span></div>
                                 <div class="icon-box-title">
@@ -73,7 +76,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6">
+                        <div class="col-12">
                             <div class="icon-box text-center">
                                 <div class="icon-box-icon"><span class="ti-desktop text-success"></span></div>
                                 <div class="icon-box-title">
@@ -84,6 +87,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </section>

@@ -10,11 +10,10 @@
                                         <h6>About Us</h6>
                                     </div>
                                     <div class="textwidget">
-                                        <p>PeekKaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep.</p>
                                         <p>
                                             Location: Kenyahse - Duase, K.N.U.S.T, Kumasi<br>
-                                            E-mail: info@peekaf.com<br>
-                                            Phone: +233 2411 68078 / +971 5829 46515<br>
+                                            E-mail: <a href="mailto:info@peekaf.com">info@peekaf.com</a><br>
+                                            Phone: <a href="tel:+233241168078">+233 2411 68078</a> / <a href="+971582946515">+971 5829 46515</a><br>
                                         </p>
                                         <ul class="social-icons">
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -43,7 +42,6 @@
                                         <h6>Discover</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="index">Home.</a></li>
                                         <li><a href="contact">Contact Us.</a></li>
                                         <li><a href="about">About Us.</a></li>
                                     </ul>
@@ -54,15 +52,18 @@
                                 <!-- Recent works-->
                                 <aside class="widget widget-recent-works">
                                     <div class="widget-title">
-                                        <h6>Discover</h6>
+                                        <h6>Products</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="javascript:;"><img src="assets/media/products/product-1.png" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/products/product-2.png" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/products/product-3.png" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/products/product-4.png" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/bg-1.jpg" alt=""></a></li>
-                                        <li><a href="javascript:;"><img src="assets/media/bg-2.jpg" alt=""></a></li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <img src="assets/media/products/product-4.png" style="width: 100px; height: 100px" alt=""></a></li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <img src="assets/media/products/product-2.png" style="width: 100px; height: 100px" alt=""></a></li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <img src="assets/media/products/product-3.png" style="width: 100px; height: 100px" alt=""></a></li>
                                     </ul>
                                 </aside>
                             </div>

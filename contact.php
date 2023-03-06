@@ -1,4 +1,11 @@
+<style>
+/* navigation bar color  */
+.header {
+  background: #28a745 !important;
+}
+</style>
 <?php 
+    $title = "CONTACT US";
     include ("includes/header.php");
     $mapkey = "AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI";
 ?>

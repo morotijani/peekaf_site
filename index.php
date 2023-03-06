@@ -1,10 +1,16 @@
 <?php 
+    $title = "HOME";
     include ("includes/header.php");
 ?>
 
         <!-- Wrapper-->
         <div class="wrapper">
-            <!-- Hero-->
+
+<style>
+    .module-cover-slides {
+        height: 60vh !important;
+    }
+</style>    
             <section class="module-cover-slides" data-module-cover-slides-options="{&quot;animation&quot;: &quot;fade&quot;}">
                 <ul class="slides-container">
                     <li class="parallax" data-overlay="0.5"><img src="assets/media/bg-3.jpg" alt="">
@@ -134,7 +140,7 @@
             <section class="module bg-gray">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6"><img src="assets/media/products/product-4.png" alt=""></div>
+                        <div class="col-lg-6"><img src="assets/media/products/product-4.png" style="width: 200px; height: 450px;" alt=""></div>
                         <div class="col-lg-5 offset-lg-1">
                             <h2>Pee Kaf Oil.</h2>
                             <p class="lead">Our edible oil products are also top of the line, and we carry a variety of brands that are well-known for their quality and taste. Whether you're looking for vegetable oil, Sunflower oil, Canola Oil,  or any other type of edible oil, we have you covered..</p>
@@ -216,13 +222,13 @@
             <!-- Testimonials end-->
 
             <!-- Image-->
-            <section class="module no-gutters p-0">
+            <!-- <section class="module no-gutters p-0">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12"><img src="assets/media/bg-1.jpg" alt="" style="width: 100%;"></div>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- Image end-->
 
 <?php 
