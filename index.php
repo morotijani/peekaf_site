@@ -8,7 +8,7 @@
 
 <style>
     .module-cover-slides {
-        height: 60vh !important;
+        height: 70vh !important;
     }
 </style>    
             <section class="module-cover-slides" data-module-cover-slides-options="{&quot;animation&quot;: &quot;fade&quot;}">

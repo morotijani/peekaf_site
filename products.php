@@ -27,7 +27,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-1.png" style="width: auto; height: 558.15px;" alt=""></a>
+                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-1.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
@@ -37,7 +37,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-3.png" style="width: auto; height: 558.15px;" alt=""></a>
+                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-3.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-4.png" style="width: auto; height: 558.15px;" alt=""></a>
+                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-4.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
@@ -57,7 +57,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-5.png" style="width: auto; height: 558.15px;" alt=""></a>
+                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-5.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
