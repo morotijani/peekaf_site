@@ -30,8 +30,8 @@
                                         <h6>Browse</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="products">Products.</a></li>
-                                        <li><a href="services">Serives.</a></li>
+                                        <li><a href="products">Products</a></li>
+                                        <li><a href="services">Service</a></li>
                                     </ul>
                                 </aside>
                             </div>
@@ -42,8 +42,8 @@
                                         <h6>Discover</h6>
                                     </div>
                                     <ul>
-                                        <li><a href="contact">Contact Us.</a></li>
-                                        <li><a href="about">About Us.</a></li>
+                                        <li><a href="contact">Contact Us</a></li>
+                                        <li><a href="about">About Us</a></li>
                                     </ul>
                                     <div class="twitter-feed" data-twitter="double_theme" data-number="1"></div>
                                 </aside>
@@ -103,9 +103,9 @@
                     <!-- Recent portfolio widget-->
                     <aside class="widget widget-recent-works">
                         <ul>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-2.png" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-3.png" alt=""></a></li>
-                            <li><a href="javascript:;"><img src="assets/media/products/product-4.png" alt=""></a></li>
+                            <li><a href="products"><img src="assets/media/products/product-2.png" alt=""></a></li>
+                            <li><a href="products"><img src="assets/media/products/product-3.png" alt=""></a></li>
+                            <li><a href="products"><img src="assets/media/products/product-4.png" alt=""></a></li>
                         </ul>
                     </aside>
                     <!-- Social Icons-->

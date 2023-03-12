@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="icon-box text-center">
-                            <div class="icon-box-icon"><span class="ti-email text-success"></span></div>
+                            <div class="icon-box-icon"><span class="ti-headphone-alt text-success"></span></div>
                             <div class="icon-box-title">
                                 <h6>Drop us a line</h6>
                             </div>
@@ -43,12 +43,12 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="icon-box text-center">
-                            <div class="icon-box-icon"><span class="ti-headphone-alt text-success"></span></div>
+                            <div class="icon-box-icon"><span class="ti-email text-success"></span></div>
                             <div class="icon-box-title">
-                                <h6>Support</h6>
+                                <h6>Email</h6>
                             </div>
                             <div class="icon-box-content">
-                                <p><a href="mailto:support@peekaf.com">support@peekaf.com</a></p>
+                                <p><a href="mailto:support@peekaf.com">info@peekaf.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <form id="contact-form" method="post" novalidate>
+                        <form id="contact-form" method="POST" novalidate>
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group">
@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="col-md-12">
                                     <p class="text-center">
-                                        <input class="btn btn-circle btn-brand btn-success" type="submit" value="Send Message">
+                                        <input class="btn btn-circle btn-brand btn-success" type="submit" name="submit" value="Send Message">
                                     </p>
                                 </div>
                             </div>

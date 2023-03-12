@@ -31,7 +31,8 @@
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Basmati Rice</h6><span class="shop-item-price">$20.00</span>
+                                    <h6 class="shop-item-title">Pee Kaf Basmati Rice</h6>
+                                    <!-- <span class="shop-item-price">$20.00</span> -->
                                 </div>
                             </div>
                         </div>
@@ -41,7 +42,8 @@
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Jasmine Rice</h6><span class="shop-item-price">$30.00</span>
+                                    <h6 class="shop-item-title">Pee Kaf Jasmine Rice</h6>
+                                    <!-- <span class="shop-item-price">$30.00</span> -->
                                 </div>
                             </div>
                         </div>
@@ -51,7 +53,8 @@
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Vegitable Oil</h6><span class="shop-item-price">$50.00</span>
+                                    <h6 class="shop-item-title">Pee Kaf Vegitable Oil</h6>
+                                    <!-- <span class="shop-item-price">$50.00</span> -->
                                 </div>
                             </div>
                         </div>
@@ -61,7 +64,8 @@
                                     <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">AMake a Purchase</a></div>
                                 </div>
                                 <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Vegitable Oil</h6><span class="shop-item-price">$50.00</span>
+                                    <h6 class="shop-item-title">Pee Kaf Vegitable Oil</h6>
+                                    <!-- <span class="shop-item-price">$50.00</span> -->
                                 </div>
                             </div>
                         </div>

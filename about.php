@@ -32,6 +32,33 @@
                     </div>
                 </div>
 
+                <section class="module">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-9 m-auto text-center">
+                                <h1>ABOUT PEE KAF.</h1>
+                                <p class="lead">
+                                    Pee Kaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep. We pride ourselves on providing top-notch service to our clients, and we are thrilled to be able to offer a wide range of products and services that will help satisfy our customers and consumers needs.
+                                    <br>
+                                    <br>
+                                    We specialize in importing rice and edible oil products from SouthEast Asia, where the fertile soil and favorable climate allow for some of the best crops in the world to be grown. 
+                                    <br>
+                                    <br>
+                                    Our major sources from SouthEast Asia are; Thailand, Vietnam, Indonesia, China, Malaysia and Singapore. 
+                                    <br>
+                                    <br>
+                                    At Peekaf Company Limited, we are committed to a partnership that is devoted to our customers’ success. We explore every possibility to ensure the right solutions for your business needs, identifying new opportunities along the way. We are firmly focused on the future – your future – and how we can work hand-in-hand to achieve the best possible results.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="space" data-MY="60px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="icon-box text-center">
@@ -80,33 +107,6 @@
                             </div>
                             <div class="icon-box-link"><a href="services">Read more</a></div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="module">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-md-9 m-auto text-center">
-                        <h1>ABOUT PEE KAF.</h1>
-                        <p class="lead">
-                            Pee Kaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep. We pride ourselves on providing top-notch service to our clients, and we are thrilled to be able to offer a wide range of products and services that will help satisfy our customers and consumers needs.
-                            <br>
-                            <br>
-                            We specialize in importing rice and edible oil products from SouthEast Asia, where the fertile soil and favorable climate allow for some of the best crops in the world to be grown. 
-                            <br>
-                            <br>
-                            Our major sources from SouthEast Asia are; Thailand, Vietnam, Indonesia, China, Malaysia and Singapore. 
-                            <br>
-                            <br>
-                            At Peekaf Company Limited, we are committed to a partnership that is devoted to our customers’ success. We explore every possibility to ensure the right solutions for your business needs, identifying new opportunities along the way. We are firmly focused on the future – your future – and how we can work hand-in-hand to achieve the best possible results.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="space" data-MY="60px"></div>
                     </div>
                 </div>
             </div>
