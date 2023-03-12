@@ -21,6 +21,28 @@
             </section>
             <!-- Hero end-->
 
+            <!-- Wrapper-->
+            <div class="wrapper">
+                <section class="module-page-title bg-gray">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="page-title-desc">
+                                    <h1 class="page-title-heading">PRODUCTS</h1>
+                                    <!--p This theme will shake your world.-->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                Our rice is of the highest quality and is sourced from reputable farms that have a long-standing reputation for producing excellent rice
+                                <div class="mt-5">
+                                    Our edible oil products are also top of the line, and we carry a variety of brands that are well-known for their quality and taste. Whether you're looking for vegetable oil, Sunflower oil, Canola Oil,  or any other type of edible oil, we have you covered.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
              <!-- Shop Grid-->
             <section class="module">
                 <div class="container">
