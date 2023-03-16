@@ -21,7 +21,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 m-auto text-center">
-                            <h1>A taste, You cannot Resist.</h1>
+                            <!-- <h1>A taste, You cannot Resist.</h1> -->
+			    <h1>Your progress is our priority</h1>
                             <p class="lead">Our team of experts is well-versed in the intricacies of international trade.</p>
                         </div>
                     </div>
