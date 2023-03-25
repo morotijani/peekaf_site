@@ -1,6 +1,7 @@
 RewriteEngine on
 
-RewriteRule ^products/([0-9a-zA-Z]+)$ products.php?pid=$1 [NC,L]
+RewriteRule ^pa/([0-9a-zA-Z]+)$ pa.php?pa=$1 [NC,L]
+RewriteRule ^pa/([0-9a-zA-Z]+)$ pa.php?p1=$1 [NC,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 

@@ -1,6 +1,5 @@
 <?php 
-    include ("../../helpers/helpers.php");
-
+    require_once($_SERVER['DOCUMENT_ROOT'].'/peekaf_site/db_connection/conn.php');
     if ($_POST) {
         // code...
         $to      = 'info@peekaf.com';
@@ -33,13 +32,19 @@
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         $headers .= "From:" . sanitize($_POST['email']);
             
-        if (mail($to, $subject, $body, $headers)) {
-            echo 1;
-            // echo js_alert('Message Sent.');
-            // redirect('contact');
-        } else {
-            echo 2;
-            // echo js_alert('Mail not sent, please try again');
-            // redirect('contact');
-        }
+        //if (mail($to, $subject, $body, $headers)) {
+            $query = "
+                INSERT INTO peekaf_contact (name, email, subject, message) 
+                VALUES (?, ?, ?, ?)
+            ";
+            $statement = $conn->prepare($query);
+            $result = $statement->execute([sanitize($_POST['name']), sanitize($_POST['email']), sanitize($_POST['subject']), sanitize($_POST['message'])]);
+            if ($result) {
+                echo 1;
+            } else {
+                echo 3;
+            }
+        // } else {
+        //      echo 2;
+        // }
     }

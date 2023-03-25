@@ -1,4 +1,6 @@
 <?php     
+    require_once ("db_connection/conn.php");
+
     $title = "ABOUT US";
     include ("includes/header.php");
 ?>
@@ -38,16 +40,7 @@
                             <div class="col-lg-10 col-md-9 m-auto text-center">
                                 <h1>ABOUT PEE KAF.</h1>
                                 <p class="lead">
-                                    Pee Kaf Company Limited is a registered company based in Ghana. We bring quality rice and edible oil products from SouthEast Asia straight to your doorstep. We pride ourselves on providing top-notch service to our clients, and we are thrilled to be able to offer a wide range of products and services that will help satisfy our customers and consumers needs.
-                                    <br>
-                                    <br>
-                                    We specialize in importing rice and edible oil products from SouthEast Asia, where the fertile soil and favorable climate allow for some of the best crops in the world to be grown. 
-                                    <br>
-                                    <br>
-                                    Our major sources from SouthEast Asia are; Thailand, Vietnam, Indonesia, China, Malaysia and Singapore. 
-                                    <br>
-                                    <br>
-                                    At Peekaf Company Limited, we are committed to a partnership that is devoted to our customers’ success. We explore every possibility to ensure the right solutions for your business needs, identifying new opportunities along the way. We are firmly focused on the future – your future – and how we can work hand-in-hand to achieve the best possible results.
+                                    <?= nl2br($about_info); ?>
                                 </p>
                             </div>
                         </div>

@@ -52,18 +52,24 @@
                                 <!-- Recent works-->
                                 <aside class="widget widget-recent-works">
                                     <div class="widget-title">
-                                        <h6>Products</h6>
+                                        <h6>Explore</h6>
                                     </div>
                                     <ul>
                                         <li>
-                                            <a href="javascript:;">
-                                                <img src="assets/media/products/product-4.png" style="width: 100px; height: 100px" alt=""></a></li>
+                                            <a href="assets/media/ad-1.jpg" target="_blank">
+                                                <img src="assets/media/ad-1.jpg" style="width: 100px; height: 100px" alt="">
+                                            </a>
+                                        </li>
                                         <li>
-                                            <a href="javascript:;">
-                                                <img src="assets/media/products/product-2.png" style="width: 100px; height: 100px" alt=""></a></li>
+                                            <a href="assets/media/ad-2.jpg" target="_blank">
+                                                <img src="assets/media/ad-2.jpg" style="width: 100px; height: 100px" alt="">
+                                            </a>
+                                        </li>
                                         <li>
-                                            <a href="javascript:;">
-                                                <img src="assets/media/products/product-3.png" style="width: 100px; height: 100px" alt=""></a></li>
+                                            <a href="assets/media/ad-3.jpg" target="_blank">
+                                                <img src="assets/media/ad-3.jpg" style="width: 100px; height: 100px" alt="">
+                                            </a>
+                                        </li>
                                     </ul>
                                 </aside>
                             </div>
@@ -103,9 +109,9 @@
                     <!-- Recent portfolio widget-->
                     <aside class="widget widget-recent-works">
                         <ul>
-                            <li><a href="products"><img src="assets/media/products/product-2.png" alt=""></a></li>
-                            <li><a href="products"><img src="assets/media/products/product-3.png" alt=""></a></li>
-                            <li><a href="products"><img src="assets/media/products/product-4.png" alt=""></a></li>
+                            <li><a href="assets/media/ad-2.jpg" target="_blank"><img src="assets/media/ad-2.jpg" alt=""></a></li>
+                            <li><a href="assets/media/ad-3.jpg" target="_blank"><img src="assets/media/ad-3.jpg" alt=""></a></li>
+                            <li><a href="assets/media/ad-1.jpg" target="_blank"><img src="assets/media/ad-1.jpg" alt=""></a></li>
                         </ul>
                     </aside>
                     <!-- Social Icons-->

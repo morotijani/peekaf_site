@@ -4,7 +4,9 @@
   background: #28a745 !important;
 }
 </style>
-<?php 
+<?php     
+    require_once ("db_connection/conn.php");
+
     $title = "CONTACT US";
     include ("includes/header.php");
     $mapkey = "AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI";

@@ -1,4 +1,6 @@
-<?php 
+<?php     
+    require_once ("db_connection/conn.php");
+
     $title = "PRODUCTS";
     include ("includes/header.php");
 ?>
@@ -47,50 +49,19 @@
             <section class="module">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-1.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
-                                    <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">Make a Purchase</a></div>
-                                </div>
-                                <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Basmati Rice</h6>
-                                    <!-- <span class="shop-item-price">$20.00</span> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-6.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
-                                    <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">Make a Purchase</a></div>
-                                </div>
-                                <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Jasmine Rice</h6>
-                                    <!-- <span class="shop-item-price">$30.00</span> -->
+                        <?php foreach ($product_result as $row): ?>
+                            <div class="col-md-6">
+                                <div class="shop-grid-item">
+                                    <div class="shop-item-thumb text-center"><a href="javascript:;"><img src="assets/media/products/<?= $row['image']; ?>" style="width: auto; height: 558.15px; object-fit: cover;" alt="<?= ucwords($row['name']); ?>' image"></a>
+                                        <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com&subject=Purchase - <?= ucwords($row['name']); ?>">Make a Purchase</a></div>
+                                    </div>
+                                    <div class="shop-item-captions">
+                                        <h6 class="shop-item-title"><?= ucwords($row['name']); ?></h6>
+                                        <!-- <span class="shop-item-price">$20.00</span> -->
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-4.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
-                                    <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">Make a Purchase</a></div>
-                                </div>
-                                <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Vegitable Oil</h6>
-                                    <!-- <span class="shop-item-price">$50.00</span> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="shop-grid-item">
-                                <div class="shop-item-thumb"><a href="javascript:;"><img src="assets/media/products/product-5.png" style="width: auto; height: 558.15px; object-fit: cover;" alt=""></a>
-                                    <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com">Make a Purchase</a></div>
-                                </div>
-                                <div class="shop-item-captions">
-                                    <h6 class="shop-item-title">Pee Kaf Vegitable Oil</h6>
-                                    <!-- <span class="shop-item-price">$50.00</span> -->
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </section>
