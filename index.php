@@ -93,9 +93,9 @@
                                     <h6><?= ucwords($row1[0]['title']); ?></h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p><?= strtr($row1[0]['content'], 0, 10); ?> ...</p>
+                                    <p><?= substr_replace($row1[0]['content'], " ...", 150);  ?></p>
                                 </div>
-                                <div class="icon-box-link"><a href="services">Read more</a></div>
+                                <div class="icon-box-link"><a href="<?= PROOT; ?>services">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -106,9 +106,9 @@
                                     <h6><?= ucwords($row2[0]['title']); ?></h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p><?= $row2[0]['content']; ?></p>
+                                    <p><?= substr_replace($row2[0]['content'], " ...", 150);  ?></p>
                                 </div>
-                                <div class="icon-box-link"><a href="services">Read more</a></div>
+                                <div class="icon-box-link"><a href="<?= PROOT; ?>services">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -119,9 +119,9 @@
                                     <h6><?= ucwords($row3[0]['title']); ?></h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p><?= $row3[0]['content']; ?></p>
+                                    <p><?= substr_replace($row3[0]['content'], " ...", 150);  ?></p>
                                 </div>
-                                <div class="icon-box-link"><a href="services">Read more</a></div>
+                                <div class="icon-box-link"><a href="<?= PROOT; ?>services">Read more</a></div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -132,9 +132,9 @@
                                     <h6><?= ucwords($row4[0]['title']); ?></h6>
                                 </div>
                                 <div class="icon-box-content">
-                                    <p><?= $row4[0]['content']; ?></p>
+                                    <p><?= substr_replace($row4[0]['content'], " ...", 150);  ?></p>
                                 </div>
-                                <div class="icon-box-link"><a href="services">Read more</a></div>
+                                <div class="icon-box-link"><a href="<?= PROOT; ?>services">Read more</a></div>
                             </div>
                         </div>
                     </div>

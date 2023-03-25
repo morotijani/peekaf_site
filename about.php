@@ -52,15 +52,17 @@
                     </div>
                 </section>
 
+                
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="icon-box text-center">
                             <div class="icon-box-icon"><span class="ti-layout text-success"></span></div>
+                            <?php $row1 = $conn->query("SELECT * FROM peekaf_service WHERE id = 1")->fetchAll(); ?>
                             <div class="icon-box-title">
-                                <h6>Quality Products</h6>
+                                <h6><?= ucwords($row1[0]['title']); ?></h6>
                             </div>
                             <div class="icon-box-content">
-                                <p>Our team of experts is well-versed in the intricacies of international trade, and we can help you find the products you need...</p>
+                                <p><?= substr_replace($row1[0]['content'], " ...", 100);  ?></p>
                             </div>
                             <div class="icon-box-link"><a href="services">Read more</a></div>
                         </div>
@@ -68,11 +70,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="icon-box text-center">
                             <div class="icon-box-icon"><span class="ti-world text-success"></span></div>
+                            <?php $row2 = $conn->query("SELECT * FROM peekaf_service WHERE id = 2")->fetchAll(); ?>
                             <div class="icon-box-title">
-                                <h6>Trade Anywhere</h6>
+                                <h6><?= ucwords($row2[0]['title']); ?></h6>
                             </div>
                             <div class="icon-box-content">
-                                <p>We understand that many people want to take advantage of the amazing products available from South East Asia, but...</p>
+                                <p><?= substr_replace($row2[0]['content'], " ...", 100);  ?></p>
                             </div>
                             <div class="icon-box-link"><a href="services">Read more</a></div>
                         </div>
@@ -80,11 +83,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="icon-box text-center">
                             <div class="icon-box-icon"><span class="ti-user text-success"></span></div>
+                            <?php $row3 = $conn->query("SELECT * FROM peekaf_service WHERE id = 3")->fetchAll(); ?>
                             <div class="icon-box-title">
-                                <h6>Communication</h6>
+                                <h6><?= ucwords($row3[0]['title']); ?></h6>
                             </div>
                             <div class="icon-box-content">
-                                <p>We emphasize effective communication as the key in understanding customers needs as well as the challenges they...</p>
+                                <p><?= substr_replace($row3[0]['content'], " ...", 100);  ?></p>
                             </div>
                             <div class="icon-box-link"><a href="services">Read more</a></div>
                         </div>
@@ -92,11 +96,12 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="icon-box text-center">
                             <div class="icon-box-icon"><span class="ti-desktop text-success"></span></div>
+                            <?php $row4 = $conn->query("SELECT * FROM peekaf_service WHERE id = 4")->fetchAll(); ?>
                             <div class="icon-box-title">
-                                <h6>Talk to Us</h6>
+                                <h6><?= ucwords($row4[0]['title']); ?></h6>
                             </div>
                             <div class="icon-box-content">
-                                <p>Contact us today to learn more about our products and services, and let us help...</p>
+                                <p><?= substr_replace($row4[0]['content'], " ...", 100);  ?></p>
                             </div>
                             <div class="icon-box-link"><a href="services">Read more</a></div>
                         </div>
