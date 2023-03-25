@@ -39,7 +39,8 @@
 </head>
 <body>
 	<div class="container">
-        <?php if (isset($_GET['pa']) && $_GET['pa'] == 'about'):
+        <p><?= $flash; ?></p>
+        <?php if (isset($_GET['pa']) && $_GET['pa'] == 'about' && isset($_SESSION['admin_id'])):
             if (isset($_POST['sumit_about'])) {
                 $updateAbout = "
                     UPDATE peekaf_about 
@@ -70,7 +71,7 @@
                     </form>
                 </div>
             </div>
-        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'service'):
+        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'service' && isset($_SESSION['admin_id'])):
             if (isset($_POST['submit_service1'])) {
               $updateService1 = "
                     UPDATE peekaf_service 
@@ -186,7 +187,7 @@
                     </form>
                 </div>
             </div>
-        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'product'):
+        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'product' && isset($_SESSION['admin_id'])):
             if (isset($_POST['submit_product'])) {
                 // code...
                 $test = explode(".", $_FILES["file"]["name"]);
@@ -249,7 +250,7 @@
                     </table>
                 </div>
             </div>
-        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'contact'): ?>
+        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'contact' && isset($_SESSION['admin_id'])): ?>
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <h2 class="text-center text-uppercase">Contacts.</h2>
@@ -280,7 +281,7 @@
                     </table>
                 </div>
             </div>
-        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'home'): ?>
+        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'home' && isset($_SESSION['admin_id'])): ?>
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <h2 class="text-center text-uppercase">ADMIN PANEL.</h2>
@@ -293,8 +294,117 @@
                     <a href="<?= PROOT; ?>pa/logout" class="btn btn-lg btn-secondary">LOGOUT</a>
                 </div>
             </div>
-        <?php else: ?>
-            
+        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'logout'):
+            unset($_SESSION['admin_id']);
+            redirect(PROOT . 'pa');
+        ?>
+        <?php else:
+            $error = '';
+
+            if (isset($_POST['submit_form'])) {
+                if (empty($_POST['admin_email']) || empty($_POST['admin_password'])) {
+                    $error = 'You must provide email and password.';
+                }
+                $query = "
+                    SELECT * FROM peekaf_admin 
+                    WHERE admin_email = :admin_email 
+                    LIMIT 1
+                ";
+                $statement = $conn->prepare($query);
+                $statement->execute(['admin_email' => $_POST['admin_email']]);
+                $count_row = $statement->rowCount();
+                $result = $statement->fetchAll();
+
+                if ($count_row < 1) {
+                    $error = 'Unkown admin.';
+                }
+
+                foreach ($result as $row) {
+                    if (!password_verify($_POST['admin_password'], $row['admin_password'])) {
+                        $error = 'Unkown admin.';
+                    }
+
+                    if (!empty($error)) {
+                        $error;
+                    } else {
+                        $admin_id = $row['admin_id'];
+                        $_SESSION['admin_id'] = $admin_id;
+                        $_SESSION['flash_success'] = 'Logged in successfully';
+                        redirect(PROOT . 'pa/home');
+                    }
+                }
+                
+            }
+        ?>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h2 class="text-center text-uppercase">LOGIN | ADMIN PANEL.</h2>
+                <hr>
+                <form method="POST">
+                    <code class="mb-1"><?= $error; ?></code>
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control" id="admin_email" name="admin_email" autocomplete="nope" autofocus>
+                        <label for="admin_email">Email address</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="password" class="form-control" id="admin_password" name="admin_password" placeholder="Password">
+                        <label for="admin_password">Password</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-dark" type="submit" id="submit_form" name="submit_form">Sign in</button>
+                </form>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <?php if (isset($_SESSION['admin_id'])):
+            $error = '';
+            if (isset($_POST['submit_form'])) {
+                if (empty($_POST['email']) || empty($_POST['password'])) {
+                    $error = 'You must provide email and password.';
+                }
+                if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+                    // code...
+                    $error = 'Your email is invalid.';
+                }
+                if (strlen($_POST['password']) < 6) {
+                    $error = 'Your password must be 6 or more character.';
+                }
+                if (!empty($error)) {
+                    $error;
+                } else {
+                    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+                    $query = "
+                        UPDATE peekaf_admin 
+                        SET admin_email = ?, admin_password = ? 
+                        WHERE admin_id = ?
+                    ";
+                    $statement = $conn->prepare($query);
+                    $result = $statement->execute([sanitize($_POST['email']), $password, $_SESSION['admin_id']]);
+                    if ($result) {
+                        // code...
+                        $_SESSION['flash_success'] = 'Login details changed successfully';
+                        redirect(PROOT . 'pa/home');
+                    }
+                } 
+            }
+        ?>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <h4 class="my-3">Change login details</h4>
+                <form method="POST">
+                    <code class="mb-1"><?= $error; ?></code>
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control" id="email" name="email" autocomplete="nope" autofocus>
+                        <label for="email">New Email address</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                        <label for="password">New Password</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-dark" type="submit" id="submit_form" name="submit_form">Change password</button>
+                </form>
+            </div>
+        </div>
         <?php endif; ?>
     </div>
 
