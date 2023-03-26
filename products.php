@@ -53,7 +53,7 @@
                             <div class="col-md-6">
                                 <div class="shop-grid-item">
                                     <div class="shop-item-thumb text-center"><a href="javascript:;"><img src="assets/media/products/<?= $row['image']; ?>" style="width: auto; height: 558.15px; object-fit: cover;" alt="<?= ucwords($row['name']); ?>' image"></a>
-                                        <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com&subject=Purchase - <?= ucwords($row['name']); ?>">Make a Purchase</a></div>
+                                        <div class="shop-item-hidden"><a class="btn btn-new-white" href="mail:buy@peekaf.com?subject=Purchase - <?= ucwords($row['name']); ?>">Make a Purchase</a></div>
                                     </div>
                                     <div class="shop-item-captions">
                                         <h6 class="shop-item-title"><?= ucwords($row['name']); ?></h6>
