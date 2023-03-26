@@ -281,7 +281,38 @@
                     </table>
                 </div>
             </div>
-        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'home' && isset($_SESSION['admin_id'])): ?>
+        <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'home' && isset($_SESSION['admin_id'])):
+            $error = '';
+            if (isset($_POST['submit_form'])) {
+                if (empty($_POST['email']) || empty($_POST['password'])) {
+                    $error = 'You must provide email and password.';
+                }
+                if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+                    // code...
+                    $error = 'Your email is invalid.';
+                }
+                if (strlen($_POST['password']) < 6) {
+                    $error = 'Your password must be 6 or more character.';
+                }
+                if (!empty($error)) {
+                    $error;
+                } else {
+                    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
+                    $query = "
+                        UPDATE peekaf_admin 
+                        SET admin_email = ?, admin_password = ? 
+                        WHERE admin_id = ?
+                    ";
+                    $statement = $conn->prepare($query);
+                    $result = $statement->execute([sanitize($_POST['email']), $password, $_SESSION['admin_id']]);
+                    if ($result) {
+                        // code...
+                        $_SESSION['flash_success'] = 'Login details changed successfully';
+                        redirect(PROOT . 'pa/home');
+                    }
+                } 
+            }
+        ?>
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <h2 class="text-center text-uppercase">ADMIN PANEL.</h2>
@@ -294,10 +325,30 @@
                     <a href="<?= PROOT; ?>pa/logout" class="btn btn-lg btn-secondary">LOGOUT</a>
                 </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h4 class="my-3">Change login details</h4>
+                    <form method="POST">
+                        <code class="mb-1"><?= $error; ?></code>
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control" id="email" name="email" autocomplete="nope" required>
+                            <label for="email">New Email address</label>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                            <label for="password">New Password</label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-dark" type="submit" id="submit_form" name="submit_form">Update</button>
+                    </form>
+                </div>
+            </div>
+
         <?php elseif (isset($_GET['pa']) && $_GET['pa'] == 'logout'):
             unset($_SESSION['admin_id']);
             redirect(PROOT . 'pa');
-        ?>
+        ?>            
+
         <?php else:
             $error = '';
 
@@ -351,57 +402,6 @@
                         <label for="admin_password">Password</label>
                     </div>
                     <button class="w-100 btn btn-lg btn-dark" type="submit" id="submit_form" name="submit_form">Sign in</button>
-                </form>
-            </div>
-        </div>
-        <?php endif; ?>
-
-        <?php if (isset($_SESSION['admin_id'])):
-            $error = '';
-            if (isset($_POST['submit_form'])) {
-                if (empty($_POST['email']) || empty($_POST['password'])) {
-                    $error = 'You must provide email and password.';
-                }
-                if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-                    // code...
-                    $error = 'Your email is invalid.';
-                }
-                if (strlen($_POST['password']) < 6) {
-                    $error = 'Your password must be 6 or more character.';
-                }
-                if (!empty($error)) {
-                    $error;
-                } else {
-                    $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
-                    $query = "
-                        UPDATE peekaf_admin 
-                        SET admin_email = ?, admin_password = ? 
-                        WHERE admin_id = ?
-                    ";
-                    $statement = $conn->prepare($query);
-                    $result = $statement->execute([sanitize($_POST['email']), $password, $_SESSION['admin_id']]);
-                    if ($result) {
-                        // code...
-                        $_SESSION['flash_success'] = 'Login details changed successfully';
-                        redirect(PROOT . 'pa/home');
-                    }
-                } 
-            }
-        ?>
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <h4 class="my-3">Change login details</h4>
-                <form method="POST">
-                    <code class="mb-1"><?= $error; ?></code>
-                    <div class="form-floating mb-2">
-                        <input type="email" class="form-control" id="email" name="email" autocomplete="nope" autofocus>
-                        <label for="email">New Email address</label>
-                    </div>
-                    <div class="form-floating mb-2">
-                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                        <label for="password">New Password</label>
-                    </div>
-                    <button class="w-100 btn btn-lg btn-dark" type="submit" id="submit_form" name="submit_form">Change password</button>
                 </form>
             </div>
         </div>

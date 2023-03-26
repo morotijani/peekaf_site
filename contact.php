@@ -5,7 +5,7 @@
 }
 </style>
 <?php     
-    require_once ("db_connection/conn.php");
+        require_once ("db_connection/conn.php");
 
     $title = "CONTACT US";
     include ("includes/header.php");

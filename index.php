@@ -146,7 +146,7 @@
             <section class="module bg-gray">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-6"><img src="assets/media/products/product-4.png" style="width: 200px; height: 450px;" alt=""></div>
+                        <div class="col-lg-6"><img src="assets/media/product-7.png" style="width: 200px; height: 450px;" alt=""></div>
                         <div class="col-lg-5 offset-lg-1">
                             <h2>Pee Kaf Oil.</h2>
                             <p class="lead">Our edible oil products are also top of the line, and we carry a variety of brands that are well-known for their quality and taste. Whether you're looking for vegetable oil, Sunflower oil, Canola Oil,  or any other type of edible oil, we have you covered..</p>
@@ -168,7 +168,7 @@
                             <div class="space" data-MY="50px"></div>
                             <a href="products">Find out more</a>
                         </div>
-                        <div class="col-lg-6"><img src="assets/media/products/product-1.png" alt=""></div>
+                        <div class="col-lg-6"><img src="assets/media/product-1.png" alt=""></div>
                     </div>
                 </div>
             </section>
